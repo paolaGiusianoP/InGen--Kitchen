@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useActiveSection } from './useActiveSection';
+import { useActiveSection } from '../hooks/useActiveSection';
 import { siteData } from '../data/siteData';
 
 export const Navbar = () => {
